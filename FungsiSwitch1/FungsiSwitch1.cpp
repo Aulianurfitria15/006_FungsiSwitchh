@@ -1,8 +1,15 @@
 
 
 #include <iostream>
+using namespace std;
 
-int main()
+int bilA, bilB;
+
+void input()
 {
-    std::cout << "Hello World!\n";
+    cout << "Masukan bilangan pertama = ";
+    cin >> bilA;
+    cout << "Masukan bilangan kedua = ";
+    cin >> bilB;
 }
+
